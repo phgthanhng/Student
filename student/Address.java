@@ -1,15 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package student;
 
 /**
  *
- * @author andre
+ * @author Phuong Thanh Nguyen
  * 
- * 13:30
+ * 
  */
 public class Address {
     private String aptNum;
@@ -139,5 +134,4 @@ public class Address {
         else
             System.out.printf("%s is not a valid zipcode", zipcode);
     }   
-    
 }

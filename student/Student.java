@@ -1,25 +1,11 @@
-/*
-static: belongs to the class, you can only put static var and static method in 
-        a static mehtod. You should only call a static method throught the class Xxxxx.method()
-        Examples:
-                String.format()
-                Math methods
-                Character methods
-
-non-static: belongs to the object, you can put ANYTHING (static var, static method,
-            non-static var, non-static method) in a non-static method. You can
-            only call a non-static method throught the object xxxx.method()
-
-        99% of methods in a class should be non-static
- */
 package student;
 
 
 /**
  * Class of Student, basic OOP exercise
- * @author Yi Wang
+ * @author Phuong Thanh Nguyen
  */
-public class Student {              // 15:00    -> 16:46
+public class Student {             
     private String name;
     private int age;                
     private String gender;
